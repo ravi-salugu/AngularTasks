@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-grand',
   template: `
   
-  
   <app-parent5 (parentevent)= "messages = $event"></app-parent5>
   {{messages}}
 `,
